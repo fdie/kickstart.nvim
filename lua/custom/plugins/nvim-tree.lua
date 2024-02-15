@@ -16,7 +16,7 @@ return {
     nvimtree.setup({
       hijack_cursor = true,
       view = {
-        width = 35,
+        width = 65,
         relativenumber = true,
       },
       -- change folder arrow icons
