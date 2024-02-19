@@ -14,17 +14,20 @@ return {
 
     -- configure nvim-tree
     nvimtree.setup({
+      update_focused_file = {
+        enable = true,
+      },
       hijack_cursor = true,
       view = {
-        width = 50,
+        width = 55,
         relativenumber = true,
       },
-      -- change folder arrow icons
       renderer = {
-        add_trailing = true,
+        -- add_trailing = true,
         indent_markers = {
           enable = true,
         },
+        highlight_opened_files = "all",
         icons = {
           -- glyphs = {
           --   folder = {

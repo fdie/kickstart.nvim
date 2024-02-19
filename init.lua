@@ -295,6 +295,8 @@ vim.o.hlsearch = false
 -- Make line numbers default
 vim.wo.number = true
 vim.wo.relativenumber = true
+vim.wo.cursorline = true
+vim.wo.cursorlineopt = 'both'
 
 -- Enable mouse mode
 vim.o.mouse = 'a'
@@ -593,7 +595,7 @@ local servers = {
   -- pyright = {},
   -- rust_analyzer = {},
   tsserver = {},
-  -- html = { filetypes = { 'html', 'twig', 'hbs'} },
+  html = { filetypes = { 'html', 'twig', 'hbs' } },
 
   lua_ls = {
     Lua = {
