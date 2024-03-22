@@ -609,6 +609,7 @@ local servers = {
     },
   },
 
+  bashls = {},
   erlangls = {},
   elixirls = {},
   ansiblels = {
